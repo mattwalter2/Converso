@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA207D3D2AE465E90031EDC4 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA207D3C2AE465E90031EDC4 /* ChatScreen.swift */; };
+		BA81CFB22AE1E91C0075E75B /* ConversoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81CFB12AE1E91C0075E75B /* ConversoApp.swift */; };
+		BA81CFB42AE1E91C0075E75B /* LanguageSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81CFB32AE1E91C0075E75B /* LanguageSelectionScreen.swift */; };
+		BA81CFB62AE1E9220075E75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA81CFB52AE1E9220075E75B /* Assets.xcassets */; };
+		BA81CFBA2AE1E9220075E75B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA81CFB92AE1E9220075E75B /* Preview Assets.xcassets */; };
+		BA81CFC42AE1E9230075E75B /* ConversoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81CFC32AE1E9230075E75B /* ConversoTests.swift */; };
+		BA81CFCE2AE1E9230075E75B /* ConversoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81CFCD2AE1E9230075E75B /* ConversoUITests.swift */; };
+		BA81CFD02AE1E9230075E75B /* ConversoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81CFCF2AE1E9230075E75B /* ConversoUITestsLaunchTests.swift */; };
+		BA81CFDF2AE320AD0075E75B /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81CFDE2AE320AD0075E75B /* HomeScreenViewController.m */; };
+		BA81CFE22AE324750075E75B /* TestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = BA81CFE12AE324750075E75B /* TestComponent.m */; };
+		BA81CFE42AE324E70075E75B /* testview1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81CFE32AE324E70075E75B /* testview1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA81CFC02AE1E9230075E75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA81CFA62AE1E91C0075E75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA81CFAD2AE1E91C0075E75B;
+			remoteInfo = Converso;
+		};
+		BA81CFCA2AE1E9230075E75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA81CFA62AE1E91C0075E75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA81CFAD2AE1E91C0075E75B;
+			remoteInfo = Converso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA207D3C2AE465E90031EDC4 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		BA81CFAE2AE1E91C0075E75B /* Converso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA81CFB12AE1E91C0075E75B /* ConversoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversoApp.swift; sourceTree = "<group>"; };
+		BA81CFB32AE1E91C0075E75B /* LanguageSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionScreen.swift; sourceTree = "<group>"; };
+		BA81CFB52AE1E9220075E75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA81CFB72AE1E9220075E75B /* Converso.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Converso.entitlements; sourceTree = "<group>"; };
+		BA81CFB92AE1E9220075E75B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA81CFBF2AE1E9230075E75B /* ConversoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA81CFC32AE1E9230075E75B /* ConversoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversoTests.swift; sourceTree = "<group>"; };
+		BA81CFC92AE1E9230075E75B /* ConversoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA81CFCD2AE1E9230075E75B /* ConversoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversoUITests.swift; sourceTree = "<group>"; };
+		BA81CFCF2AE1E9230075E75B /* ConversoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA81CFDC2AE320AC0075E75B /* Converso-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Converso-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA81CFDD2AE320AD0075E75B /* HomeScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		BA81CFDE2AE320AD0075E75B /* HomeScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		BA81CFE02AE324750075E75B /* TestComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestComponent.h; sourceTree = "<group>"; };
+		BA81CFE12AE324750075E75B /* TestComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestComponent.m; sourceTree = "<group>"; };
+		BA81CFE32AE324E70075E75B /* testview1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testview1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA81CFAB2AE1E91C0075E75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CFBC2AE1E9220075E75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CFC62AE1E9230075E75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA81CFA52AE1E91C0075E75B = {
+			isa = PBXGroup;
+			children = (
+				BA81CFB02AE1E91C0075E75B /* Converso */,
+				BA81CFC22AE1E9230075E75B /* ConversoTests */,
+				BA81CFCC2AE1E9230075E75B /* ConversoUITests */,
+				BA81CFAF2AE1E91C0075E75B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA81CFAF2AE1E91C0075E75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA81CFAE2AE1E91C0075E75B /* Converso.app */,
+				BA81CFBF2AE1E9230075E75B /* ConversoTests.xctest */,
+				BA81CFC92AE1E9230075E75B /* ConversoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA81CFB02AE1E91C0075E75B /* Converso */ = {
+			isa = PBXGroup;
+			children = (
+				BA81CFB12AE1E91C0075E75B /* ConversoApp.swift */,
+				BA81CFB32AE1E91C0075E75B /* LanguageSelectionScreen.swift */,
+				BA81CFE32AE324E70075E75B /* testview1.swift */,
+				BA207D3C2AE465E90031EDC4 /* ChatScreen.swift */,
+				BA81CFB52AE1E9220075E75B /* Assets.xcassets */,
+				BA81CFB72AE1E9220075E75B /* Converso.entitlements */,
+				BA81CFB82AE1E9220075E75B /* Preview Content */,
+				BA81CFDD2AE320AD0075E75B /* HomeScreenViewController.h */,
+				BA81CFDE2AE320AD0075E75B /* HomeScreenViewController.m */,
+				BA81CFDC2AE320AC0075E75B /* Converso-Bridging-Header.h */,
+				BA81CFE02AE324750075E75B /* TestComponent.h */,
+				BA81CFE12AE324750075E75B /* TestComponent.m */,
+			);
+			path = Converso;
+			sourceTree = "<group>";
+		};
+		BA81CFB82AE1E9220075E75B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA81CFB92AE1E9220075E75B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA81CFC22AE1E9230075E75B /* ConversoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA81CFC32AE1E9230075E75B /* ConversoTests.swift */,
+			);
+			path = ConversoTests;
+			sourceTree = "<group>";
+		};
+		BA81CFCC2AE1E9230075E75B /* ConversoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA81CFCD2AE1E9230075E75B /* ConversoUITests.swift */,
+				BA81CFCF2AE1E9230075E75B /* ConversoUITestsLaunchTests.swift */,
+			);
+			path = ConversoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA81CFAD2AE1E91C0075E75B /* Converso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA81CFD32AE1E9230075E75B /* Build configuration list for PBXNativeTarget "Converso" */;
+			buildPhases = (
+				BA81CFAA2AE1E91C0075E75B /* Sources */,
+				BA81CFAB2AE1E91C0075E75B /* Frameworks */,
+				BA81CFAC2AE1E91C0075E75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Converso;
+			productName = Converso;
+			productReference = BA81CFAE2AE1E91C0075E75B /* Converso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA81CFBE2AE1E9220075E75B /* ConversoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA81CFD62AE1E9230075E75B /* Build configuration list for PBXNativeTarget "ConversoTests" */;
+			buildPhases = (
+				BA81CFBB2AE1E9220075E75B /* Sources */,
+				BA81CFBC2AE1E9220075E75B /* Frameworks */,
+				BA81CFBD2AE1E9220075E75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA81CFC12AE1E9230075E75B /* PBXTargetDependency */,
+			);
+			name = ConversoTests;
+			productName = ConversoTests;
+			productReference = BA81CFBF2AE1E9230075E75B /* ConversoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA81CFC82AE1E9230075E75B /* ConversoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA81CFD92AE1E9230075E75B /* Build configuration list for PBXNativeTarget "ConversoUITests" */;
+			buildPhases = (
+				BA81CFC52AE1E9230075E75B /* Sources */,
+				BA81CFC62AE1E9230075E75B /* Frameworks */,
+				BA81CFC72AE1E9230075E75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA81CFCB2AE1E9230075E75B /* PBXTargetDependency */,
+			);
+			name = ConversoUITests;
+			productName = ConversoUITests;
+			productReference = BA81CFC92AE1E9230075E75B /* ConversoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA81CFA62AE1E91C0075E75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BA81CFAD2AE1E91C0075E75B = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+					BA81CFBE2AE1E9220075E75B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BA81CFAD2AE1E91C0075E75B;
+					};
+					BA81CFC82AE1E9230075E75B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BA81CFAD2AE1E91C0075E75B;
+					};
+				};
+			};
+			buildConfigurationList = BA81CFA92AE1E91C0075E75B /* Build configuration list for PBXProject "Converso" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA81CFA52AE1E91C0075E75B;
+			productRefGroup = BA81CFAF2AE1E91C0075E75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA81CFAD2AE1E91C0075E75B /* Converso */,
+				BA81CFBE2AE1E9220075E75B /* ConversoTests */,
+				BA81CFC82AE1E9230075E75B /* ConversoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA81CFAC2AE1E91C0075E75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA81CFBA2AE1E9220075E75B /* Preview Assets.xcassets in Resources */,
+				BA81CFB62AE1E9220075E75B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CFBD2AE1E9220075E75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CFC72AE1E9230075E75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA81CFAA2AE1E91C0075E75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA81CFE42AE324E70075E75B /* testview1.swift in Sources */,
+				BA207D3D2AE465E90031EDC4 /* ChatScreen.swift in Sources */,
+				BA81CFDF2AE320AD0075E75B /* HomeScreenViewController.m in Sources */,
+				BA81CFE22AE324750075E75B /* TestComponent.m in Sources */,
+				BA81CFB42AE1E91C0075E75B /* LanguageSelectionScreen.swift in Sources */,
+				BA81CFB22AE1E91C0075E75B /* ConversoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CFBB2AE1E9220075E75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA81CFC42AE1E9230075E75B /* ConversoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA81CFC52AE1E9230075E75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA81CFD02AE1E9230075E75B /* ConversoUITestsLaunchTests.swift in Sources */,
+				BA81CFCE2AE1E9230075E75B /* ConversoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA81CFC12AE1E9230075E75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA81CFAD2AE1E91C0075E75B /* Converso */;
+			targetProxy = BA81CFC02AE1E9230075E75B /* PBXContainerItemProxy */;
+		};
+		BA81CFCB2AE1E9230075E75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA81CFAD2AE1E91C0075E75B /* Converso */;
+			targetProxy = BA81CFCA2AE1E9230075E75B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA81CFD12AE1E9230075E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA81CFD22AE1E9230075E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BA81CFD42AE1E9230075E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Converso/Converso.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Converso/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQD237QJVQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Converso.Converso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Converso/Converso-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA81CFD52AE1E9230075E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Converso/Converso.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Converso/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQD237QJVQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Converso.Converso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Converso/Converso-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA81CFD72AE1E9230075E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQD237QJVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Converso.ConversoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Converso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Converso";
+			};
+			name = Debug;
+		};
+		BA81CFD82AE1E9230075E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQD237QJVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Converso.ConversoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Converso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Converso";
+			};
+			name = Release;
+		};
+		BA81CFDA2AE1E9230075E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQD237QJVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Converso.ConversoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Converso;
+			};
+			name = Debug;
+		};
+		BA81CFDB2AE1E9230075E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQD237QJVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Converso.ConversoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Converso;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA81CFA92AE1E91C0075E75B /* Build configuration list for PBXProject "Converso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81CFD12AE1E9230075E75B /* Debug */,
+				BA81CFD22AE1E9230075E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA81CFD32AE1E9230075E75B /* Build configuration list for PBXNativeTarget "Converso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81CFD42AE1E9230075E75B /* Debug */,
+				BA81CFD52AE1E9230075E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA81CFD62AE1E9230075E75B /* Build configuration list for PBXNativeTarget "ConversoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81CFD72AE1E9230075E75B /* Debug */,
+				BA81CFD82AE1E9230075E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA81CFD92AE1E9230075E75B /* Build configuration list for PBXNativeTarget "ConversoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81CFDA2AE1E9230075E75B /* Debug */,
+				BA81CFDB2AE1E9230075E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA81CFA62AE1E91C0075E75B /* Project object */;
+}
