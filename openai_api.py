@@ -2,13 +2,13 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
 import json
+import os
 from openai import OpenAI
 
 app = Flask(__name__)
 CORS(app)  # This is necessary to handle CORS if your Flutter app and this backend are on different domains.
-
+api_key = os.getenv('OPENAI_API_KEY')
 OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions'
-API_KEY = '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'  # Replace with your OpenAI API key
 
 @app.route('/generate-response', methods=['POST'])
 def ask():
@@ -16,11 +16,11 @@ def ask():
     print(data)
     user_message = data.get('prompt')
     messages_list = data.get('messages', [])  # Extract messages from the request, default to empty list if not present
-    print(messages_list)
-    headers = {
-        'Authorization': f'Bearer {API_KEY}',
-        'Content-Type': 'application/json',
-    }
+    # print(messages_list)
+    # headers = {
+    #     'Authorization': f'Bearer {API_KEY}',
+    #     'Content-Type': 'application/json',
+    # }
 
     # Adjusted for the Chat API
     payload = {
@@ -36,7 +36,7 @@ def ask():
   
 
     
-    client = OpenAI(api_key="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")
+    client = OpenAI(api_key=api_key)
 
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
@@ -57,7 +57,4 @@ def ask():
   
     return jsonify({'data': response.choices[0].message.content.strip()})
 
-
-if __name__ == '__main__':
-    app.run(debug=True, port=3000)
 
