@@ -8,7 +8,7 @@ from openai import OpenAI
 app = Flask(__name__)
 CORS(app)  # This is necessary to handle CORS if your Flutter app and this backend are on different domains.
 api_key = os.getenv('OPENAI_API_KEY')
-OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions'
+
 
 @app.route('/generate-response', methods=['POST'])
 def ask():
